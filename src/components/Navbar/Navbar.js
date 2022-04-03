@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
-  // const [cartCounter, setcartCounter] = useState(0);
   return (
     <div className="navbar">
       <Link to="/" className="link">
@@ -18,7 +17,6 @@ function Navbar() {
             width={50}
             height={50}
           />
-          {/* <h1>{cartCounter}</h1> */}
         </div>
       </Link>
     </div>
