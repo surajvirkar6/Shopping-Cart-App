@@ -1,0 +1,25 @@
+.navbar{
+    background-color: lightgray;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 8px grey;
+}
+.title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.cart_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cart_container h1{
+    font-size: 50px;
+    font-weight: 700;
+}
